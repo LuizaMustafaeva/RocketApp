@@ -18,6 +18,8 @@
 		25ADB0DF284374BF009B57D1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADB0DE284374BF009B57D1 /* TabBarController.swift */; };
 		25ADB0E1284375C9009B57D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADB0E0284375C9009B57D1 /* HomeViewController.swift */; };
 		25ADB0E3284375E4009B57D1 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADB0E2284375E4009B57D1 /* OrderViewController.swift */; };
+		25ADB0E7284380E4009B57D1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADB0E6284380E4009B57D1 /* TableViewCell.swift */; };
+		25ADB0E928438DE9009B57D1 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25ADB0E828438DE9009B57D1 /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		25ADB0DE284374BF009B57D1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		25ADB0E0284375C9009B57D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		25ADB0E2284375E4009B57D1 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		25ADB0E6284380E4009B57D1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		25ADB0E828438DE9009B57D1 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +78,9 @@
 				25ADB0DA28436BED009B57D1 /* ShopViewController.swift */,
 				25ADB0DC28436BFA009B57D1 /* CurierViewController.swift */,
 				25ADB0E0284375C9009B57D1 /* HomeViewController.swift */,
+				25ADB0E6284380E4009B57D1 /* TableViewCell.swift */,
 				25ADB0E2284375E4009B57D1 /* OrderViewController.swift */,
+				25ADB0E828438DE9009B57D1 /* SecondTableViewCell.swift */,
 				25ADB0CA284346B0009B57D1 /* Assets.xcassets */,
 				25ADB0CC284346B0009B57D1 /* LaunchScreen.storyboard */,
 				25ADB0CF284346B0009B57D1 /* Info.plist */,
@@ -167,11 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25ADB0E928438DE9009B57D1 /* SecondTableViewCell.swift in Sources */,
 				25ADB0D9284364F4009B57D1 /* LoginViewController.swift in Sources */,
 				25ADB0C6284346AF009B57D1 /* FirstViewController.swift in Sources */,
 				25ADB0DB28436BED009B57D1 /* ShopViewController.swift in Sources */,
 				25ADB0E1284375C9009B57D1 /* HomeViewController.swift in Sources */,
 				25ADB0C2284346AF009B57D1 /* AppDelegate.swift in Sources */,
+				25ADB0E7284380E4009B57D1 /* TableViewCell.swift in Sources */,
 				25ADB0DF284374BF009B57D1 /* TabBarController.swift in Sources */,
 				25ADB0DD28436BFA009B57D1 /* CurierViewController.swift in Sources */,
 				25ADB0C4284346AF009B57D1 /* SceneDelegate.swift in Sources */,

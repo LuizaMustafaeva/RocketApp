@@ -14,6 +14,8 @@ class CurierViewController: UIViewController {
 
         view.backgroundColor = .white
         self.title = "Курьер"
+        
+        self.navigationItem.setHidesBackButton(true, animated: true)
     }
 
 }

@@ -74,10 +74,8 @@ class TabBarViewController: UITabBarController {
             case .home:
                 isRoot = true
                 vc = HomeViewController()
-                self.navigationController?.show(vc, sender: nil)
             case .discovery:
                 vc = OrderViewController()
-                self.navigationController?.show(vc, sender: nil)
             }
             let rootVC = UINavigationController(rootViewController: vc)
             if isRoot {
